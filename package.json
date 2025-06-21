@@ -1,0 +1,14 @@
+{
+  "name": "forex-crypto-whatsapp-newsbot",
+  "version": "1.1.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "node-fetch": "^2.6.1",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
