@@ -50,9 +50,7 @@ sock.ev.on('messages.upsert', async ({ messages }) => {
         getLatestEconomicHeadlines()
       ]);
 
-      let msg = "*📅 ECONOMIC & CRYPTO NEWS UPDATE*
-
-";
+      let msg = `*📅 ECONOMIC & CRYPTO NEWS UPDATE*\n\n`;
 
       if (forexNews.length > 0) {
         msg += "🟡🔴 *Medium & High Impact Forex News:*
